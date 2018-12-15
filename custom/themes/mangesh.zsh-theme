@@ -1,10 +1,3 @@
-# local ret_status="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
-
-# ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}git:(%{$fg[red]%}"
-# ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
-# ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%}) %{$fg[yellow]%}✗"
-# ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
-
 # Show the machine name other than the most used one.
 local_machines=("PAC02LC18LFFT3" "PA-MBP-C02LC18LFFT3" "garfield")
 
