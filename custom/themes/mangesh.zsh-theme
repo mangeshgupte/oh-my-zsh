@@ -1,5 +1,5 @@
 # Show the machine name other than the most used one.
-local_machines=("PAC02LC18LFFT3" "PA-MBP-C02LC18LFFT3" "garfield")
+local_machines=("PAC02LC18LFFT3" "PA-MBP-C02LC18LFFT3" "garfield" "PAC02C10WXMD6P")
 
 local hostname=${(%):-%m}
 local machine_name=''
