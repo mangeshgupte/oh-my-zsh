@@ -15,7 +15,7 @@ fi
 
 PROMPT='$user_prefix%{$fg[green]%}$machine_name%{$fg[cyan]%}%3~ %{$fg_bold[blue]%}$(git_prompt_info)%{$fg[cyan]%}%% %{$reset_color%}'
 
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}git:(%{$fg[red]%}"
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}(%{$fg[red]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%}) %{$fg[yellow]%}✗"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
